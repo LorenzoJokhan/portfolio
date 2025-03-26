@@ -2,19 +2,19 @@ export const Projects = ({ className }: { className?: string }) => {
   const projects = [
     {
       title: "Lessenplan",
-      cover: "./lessenplan-2.png",
+      cover: "./images/projects/lessenplan-2.png",
       description:
         "A platform for teachers and students to manage their lesson plans and schedules. Built with React, Node.js, and MySQL. Integrating the the existing wordpress eco-system into the new application, this project came with a number of interesting challenges.",
     },
     {
       title: "Lessenplan mobiele app",
-      cover: "./lessenplan-1.png",
+      cover: "./images/projects/lessenplan-1.png",
       description:
         "Een mobiele app waarmee leraren hun lesrooster kunnen inzien en details van gymactiviteiten kunnen inzien. Geschreven in react-native met expo.",
     },
     {
       title: "Omleidingennet",
-      cover: "./omleidingennet-1.png",
+      cover: "./images/projects/omleidingennet-1.png",
       description:
         "A web application that provides real-time traffic information and alternative routes for drivers. Built with Next.js, TailwindCSS, and GraphQL. Within this application is a way to draw the roads on a map which is rendered with leaflet. Every drawn line is enriched with the valhalla API refining the draw line to a route. These drawn routes are then saved in the database. Whenever a route enters the specific area within a company, then a mail will be send to the desired person of interest",
     },

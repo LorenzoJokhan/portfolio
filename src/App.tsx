@@ -17,7 +17,7 @@ function App() {
       <section className="container mx-auto flex  max-md:block p-10 gap-12">
         <section className="flex flex-col w-1/3 sticky  top-10 h-fit self-start  max-lg:static max-lg:w-full max-lg:mb-8">
           <img
-            src="/profile.jpg"
+            src="./images/profile.jpg"
             className="w-48 portfolio-profile-photo self-center"
             alt="Lorenzo Jokhan"
           />
