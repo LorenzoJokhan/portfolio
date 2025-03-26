@@ -4,8 +4,13 @@ export const IntroductionPage = ({ className }: { className?: string }) => {
       <h1 className="text-3xl mb-4">Who am i?</h1>
       <section
         id="about"
-        className={"flex flex-col gap-6 bg-card rounded-2xl p-8 " + className}
+        className={
+          "relative flex flex-col gap-6 bg-card rounded-2xl p-8 " + className
+        }
       >
+        <i className="absolute material-symbols-outlined right-0 top-0 -translate-y-1/2 translate-x-1/2 scale-200 animate-[spin_3s_ease-in-out_infinite]">
+          settings
+        </i>
         <p>
           From the moment I wrote my first line of code, I knew that creating
           digital experiences was more than just a skill—it was my passion. As a

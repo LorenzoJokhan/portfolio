@@ -4,7 +4,6 @@
   "version": "0.0.2",
   "type": "module",
   "homepage": "https://LorenzoJokhan.github.io/portfolio",
-
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -14,6 +13,12 @@
     "deploy": "gh-pages -d docs"
   },
   "dependencies": {
+    "'": "file:awesome.me/kit-0ddbc356bf@latest'",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@tailwindcss/vite": "^4.0.14",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

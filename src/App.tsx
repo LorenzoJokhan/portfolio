@@ -5,6 +5,9 @@ import { Work } from "./pages/work";
 import { Contact } from "./pages/contact";
 import { TechStackGrid } from "./pages/tech-stack";
 import { Projects } from "./pages/projects";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
   const [currentTab, setCurrentTab] = useState("about");
@@ -24,7 +27,7 @@ function App() {
             I build accessible, pixel-perfect digital experiences for the web.
           </p>
 
-          <section className="flex flex-col">
+          <section className="flex flex-col mb-8">
             {["About", "Technologies", "Experiences", "Projects"].map(
               (label) => {
                 const tab = label.toLowerCase();
@@ -56,6 +59,21 @@ function App() {
                 );
               }
             )}
+          </section>
+
+          <section className="flex gap-4 items-center">
+            <a href="">
+              <FontAwesomeIcon
+                className="text-2xl hover:scale-150 transition-transform"
+                icon={faLinkedin}
+              />
+            </a>
+            <a href="">
+              <FontAwesomeIcon
+                className="text-2xl hover:scale-150 transition-transform"
+                icon={faGithub}
+              />
+            </a>
           </section>
         </section>
         <section className="flex flex-col">

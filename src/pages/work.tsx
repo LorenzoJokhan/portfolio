@@ -9,10 +9,26 @@ export const Work = ({ className }: { className?: string }) => {
       description:
         "Worked on different projects and technologies, from frontend to backend. Built scalable and maintainable web applications using React, Node.js, Remix.run, Postgresql and MySQL. Collaborated with cross-functional teams to define, design, and ship new feature. Optimized code for maximum speed and scalability.",
     },
+
     {
       title: "Fullstack Developer",
-      company: "IT-Topdogs",
-      date: "2020 - 2022",
+      company: "Headfirst group",
+      date: "September 2020 - September 2022",
+      description:
+        "Developed and maintained web applications, ensuring seamless integration between frontend and backend systems. Designed and implemented RESTful APIs and database schemas. Collaborated with team members to troubleshoot and resolve technical issues. Participated in code reviews to ensure code quality and best practices.",
+    },
+    {
+      title: "Fullstack Developer",
+      company: "Jobcatcher between staffing",
+      date: "Januari 2020 - September 2022",
+      description:
+        "Developed and maintained web applications, ensuring seamless integration between frontend and backend systems. Designed and implemented RESTful APIs and database schemas. Collaborated with team members to troubleshoot and resolve technical issues. Participated in code reviews to ensure code quality and best practices.",
+    },
+
+    {
+      title: "Fullstack Developer",
+      company: "Het CAK",
+      date: "Januari 2019 - September 2019",
       description:
         "Developed and maintained web applications, ensuring seamless integration between frontend and backend systems. Designed and implemented RESTful APIs and database schemas. Collaborated with team members to troubleshoot and resolve technical issues. Participated in code reviews to ensure code quality and best practices.",
     },
