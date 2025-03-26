@@ -6,7 +6,6 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   base: "./",
   build: {
-    outDir: "./docs",
     emptyOutDir: true,
     assetsDir: "assets",
   },

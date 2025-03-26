@@ -7,11 +7,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "postbuild": "node -e \"require('fs').writeFileSync('docs/.nojekyll', '')\"",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d docs"
+    "preview": "vite preview"
+
   },
   "dependencies": {
     "'": "file:awesome.me/kit-0ddbc356bf@latest'",
