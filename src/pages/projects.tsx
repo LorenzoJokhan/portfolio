@@ -18,6 +18,12 @@ export const Projects = ({ className }: { className?: string }) => {
       description:
         "A web application that provides real-time traffic information and alternative routes for drivers. Built with Next.js, TailwindCSS, and GraphQL. Within this application is a way to draw the roads on a map which is rendered with leaflet. Every drawn line is enriched with the valhalla API refining the draw line to a route. These drawn routes are then saved in the database. Whenever a route enters the specific area within a company, then a mail will be send to the desired person of interest",
     },
+    {
+      title: "Character counter",
+      cover: "./character-counter.png",
+      description:
+        "A practice project that counts the characters in a given string, this project is part of frontendmentor",
+    },
   ];
 
   return (
